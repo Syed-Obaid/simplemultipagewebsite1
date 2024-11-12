@@ -72,7 +72,7 @@ function Contact() {
 </div>
 <div>
     <label htmlFor="message" className='block mb-2'>Message</label>
-    <textarea type="text" className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-pink-700' rows={5} placeholder='Enter Your Message'/>
+    <textarea  className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-pink-700' rows={5} placeholder='Enter Your Message'/>
 </div>
 <button className='bg-gradient-to-r from-purple-800 to-pink-700 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full'>Send</button>
 </form>

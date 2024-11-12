@@ -1,9 +1,7 @@
 'use client'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import Services from '../services/page';
-import Contact from '../contact/page';
-import About from '../about/page';
+
 
 function Navbar() {
 const [isClick,SetIsClick]=useState(false)
